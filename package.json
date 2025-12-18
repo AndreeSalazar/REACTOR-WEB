@@ -1,0 +1,13 @@
+{
+  "name": "reactor-web-root",
+  "private": true,
+  "scripts": {
+    "dev": "cd reactor-vulkan && bun install && bun run dev",
+    "build": "cd reactor-vulkan && bun install && bun run build",
+    "start": "cd reactor-vulkan && bun run start",
+    "lint": "cd reactor-vulkan && bun run lint"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
