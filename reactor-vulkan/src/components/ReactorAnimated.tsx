@@ -32,8 +32,8 @@ export default function ReactorAnimated({
   glowIntensity = 1,
 }: ReactorAnimatedProps) {
   const [mounted, setMounted] = useState(false);
-  const [randomArcs, setRandomArcs] = useState<JSX.Element[]>([]);
-  const [particles, setParticles] = useState<JSX.Element[]>([]);
+  const [randomArcs, setRandomArcs] = useState<React.JSX.Element[]>([]);
+  const [particles, setParticles] = useState<React.JSX.Element[]>([]);
 
   useEffect(() => {
     setMounted(true);
